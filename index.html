@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Malla Curricular Ingeniería Civil Industrial</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Malla Curricular</h1>
+  <h2>Ingeniería Civil Industrial - Universidad de Chile</h2>
+
+<div class="semestre">
+<h2>Semestre 1</h2>
+<div class="curso" data-codigo="MA1101" data-prerreq="" onclick="toggle(this)" style="opacity: 1">Introducción al Álgebra<br><small>MA1101 - 6 créditos</small></div>
+<div class="curso" data-codigo="MA1102" data-prerreq="" onclick="toggle(this)" style="opacity: 1">Introducción al Cálculo<br><small>MA1102 - 6 créditos</small></div>
+<div class="curso" data-codigo="FI1000" data-prerreq="" onclick="toggle(this)" style="opacity: 1">Introducción a la Física Clásica<br><small>FI1000 - 6 créditos</small></div>
+<div class="curso" data-codigo="CI0100" data-prerreq="" onclick="toggle(this)" style="opacity: 1">Desafíos en Ingeniería<br><small>CI0100 - 6 créditos</small></div>
+</div>
+
+<div class="semestre">
+<h2>Semestre 2</h2>
+<div class="curso" data-codigo="MA2102" data-prerreq="MA1101" onclick="toggle(this)" style="opacity: 0.3">Álgebra Lineal<br><small>MA2102 - 6 créditos</small></div>
+<div class="curso" data-codigo="MA2101" data-prerreq="MA1102" onclick="toggle(this)" style="opacity: 0.3">Cálculo Diferencial e Integral<br><small>MA2101 - 6 créditos</small></div>
+<div class="curso" data-codigo="FI1100" data-prerreq="FI1000" onclick="toggle(this)" style="opacity: 0.3">Introducción a la Física Moderna<br><small>FI1100 - 6 créditos</small></div>
+<div class="curso" data-codigo="QZ2211" data-prerreq="" onclick="toggle(this)" style="opacity: 1">Química<br><small>QZ2211 - 6 créditos</small></div>
+</div>
+
+<div class="semestre">
+<h2>Semestre 3</h2>
+<div class="curso" data-codigo="MA2001" data-prerreq="MA2101" onclick="toggle(this)" style="opacity: 0.3">Cálculo en Varias Variables<br><small>MA2001 - 6 créditos</small></div>
+<div class="curso" data-codigo="FI2001" data-prerreq="FI1000" onclick="toggle(this)" style="opacity: 0.3">Mecánica<br><small>FI2001 - 6 créditos</small></div>
+<div class="curso" data-codigo="IN2201" data-prerreq="MA1102" onclick="toggle(this)" style="opacity: 0.3">Economía<br><small>IN2201 - 6 créditos</small></div>
+<div class="curso" data-codigo="IN3141" data-prerreq="MA2101" onclick="toggle(this)" style="opacity: 0.3">Probabilidades<br><small>IN3141 - 6 créditos</small></div>
+</div>
+
+<div class="semestre">
+<h2>Semestre 4</h2>
+<div class="curso" data-codigo="MA3401" data-prerreq="MA2001" onclick="toggle(this)" style="opacity: 0.3">Ecuaciones Diferenciales<br><small>MA3401 - 6 créditos</small></div>
+<div class="curso" data-codigo="FI3001" data-prerreq="FI1100" onclick="toggle(this)" style="opacity: 0.3">Electromagnetismo<br><small>FI3001 - 6 créditos</small></div>
+<div class="curso" data-codigo="IN3142" data-prerreq="IN3141" onclick="toggle(this)" style="opacity: 0.3">Estadística<br><small>IN3142 - 6 créditos</small></div>
+<div class="curso" data-codigo="IN3101" data-prerreq="IN2201" onclick="toggle(this)" style="opacity: 0.3">Contabilidad y Costos<br><small>IN3101 - 6 créditos</small></div>
+</div>
+
+<div class="semestre">
+<h2>Semestre 5</h2>
+<div class="curso" data-codigo="FI3101" data-prerreq="" onclick="toggle(this)" style="opacity: 1">Termodinámica<br><small>FI3101 - 6 créditos</small></div>
+<div class="curso" data-codigo="IN3201" data-prerreq="IN3141" onclick="toggle(this)" style="opacity: 0.3">Optimización<br><small>IN3201 - 6 créditos</small></div>
+<div class="curso" data-codigo="IN3301" data-prerreq="" onclick="toggle(this)" style="opacity: 1">Teoría de Sistemas<br><small>IN3301 - 6 créditos</small></div>
+<div class="curso" data-codigo="IN3102" data-prerreq="IN3101" onclick="toggle(this)" style="opacity: 0.3">Contabilidad Gerencial<br><small>IN3102 - 6 créditos</small></div>
+</div>
+
+<div class="semestre">
+<h2>Semestre 6</h2>
+<div class="curso" data-codigo="IN3143" data-prerreq="IN3142" onclick="toggle(this)" style="opacity: 0.3">Procesos Estocásticos<br><small>IN3143 - 6 créditos</small></div>
+<div class="curso" data-codigo="IN3202" data-prerreq="IN3201" onclick="toggle(this)" style="opacity: 0.3">Investigación de Operaciones<br><small>IN3202 - 6 créditos</small></div>
+<div class="curso" data-codigo="IN3401" data-prerreq="IN3101" onclick="toggle(this)" style="opacity: 0.3">Gestión de Personas<br><small>IN3401 - 6 créditos</small></div>
+<div class="curso" data-codigo="IN3501" data-prerreq="IN3102" onclick="toggle(this)" style="opacity: 0.3">Ingeniería Económica<br><small>IN3501 - 6 créditos</small></div>
+</div>
+
+<div class="semestre">
+<h2>Semestre 7</h2>
+<div class="curso" data-codigo="IN3203" data-prerreq="IN3202" onclick="toggle(this)" style="opacity: 0.3">Simulación<br><small>IN3203 - 6 créditos</small></div>
+<div class="curso" data-codigo="IN3302" data-prerreq="IN3201" onclick="toggle(this)" style="opacity: 0.3">Gestión de Operaciones<br><small>IN3302 - 6 créditos</small></div>
+<div class="curso" data-codigo="IN3402" data-prerreq="IN3401" onclick="toggle(this)" style="opacity: 0.3">Marketing<br><small>IN3402 - 6 créditos</small></div>
+<div class="curso" data-codigo="ELC1001" data-prerreq="" onclick="toggle(this)" style="opacity: 1">Electivo Profesional I<br><small>ELC1001 - 6 créditos</small></div>
+</div>
+
+<div class="semestre">
+<h2>Semestre 8</h2>
+<div class="curso" data-codigo="IN3502" data-prerreq="IN3501" onclick="toggle(this)" style="opacity: 0.3">Evaluación de Proyectos<br><small>IN3502 - 6 créditos</small></div>
+<div class="curso" data-codigo="IN3403" data-prerreq="IN3401" onclick="toggle(this)" style="opacity: 0.3">Estrategia<br><small>IN3403 - 6 créditos</small></div>
+<div class="curso" data-codigo="ELC1002" data-prerreq="" onclick="toggle(this)" style="opacity: 1">Electivo Profesional II<br><small>ELC1002 - 6 créditos</small></div>
+<div class="curso" data-codigo="ELC1003" data-prerreq="" onclick="toggle(this)" style="opacity: 1">Electivo Profesional III<br><small>ELC1003 - 6 créditos</small></div>
+</div>
+
+<div class="semestre">
+<h2>Semestre 9</h2>
+<div class="curso" data-codigo="IN3601" data-prerreq="IN3403" onclick="toggle(this)" style="opacity: 0.3">Gestión Tecnológica<br><small>IN3601 - 6 créditos</small></div>
+<div class="curso" data-codigo="IN3503" data-prerreq="IN3502" onclick="toggle(this)" style="opacity: 0.3">Gestión Financiera<br><small>IN3503 - 6 créditos</small></div>
+<div class="curso" data-codigo="ELC1004" data-prerreq="" onclick="toggle(this)" style="opacity: 1">Electivo Profesional IV<br><small>ELC1004 - 6 créditos</small></div>
+<div class="curso" data-codigo="ELC1005" data-prerreq="" onclick="toggle(this)" style="opacity: 1">Electivo Profesional V<br><small>ELC1005 - 6 créditos</small></div>
+</div>
+
+<div class="semestre">
+<h2>Semestre 10</h2>
+<div class="curso" data-codigo="IN4001" data-prerreq="IN3502" onclick="toggle(this)" style="opacity: 0.3">Proyecto de Título I<br><small>IN4001 - 6 créditos</small></div>
+<div class="curso" data-codigo="ELC1006" data-prerreq="" onclick="toggle(this)" style="opacity: 1">Electivo Profesional VI<br><small>ELC1006 - 6 créditos</small></div>
+<div class="curso" data-codigo="ELC1007" data-prerreq="" onclick="toggle(this)" style="opacity: 1">Electivo Profesional VII<br><small>ELC1007 - 6 créditos</small></div>
+<div class="curso" data-codigo="ELC1008" data-prerreq="" onclick="toggle(this)" style="opacity: 1">Electivo Profesional VIII<br><small>ELC1008 - 6 créditos</small></div>
+</div>
+
+<div class="semestre">
+<h2>Semestre 11</h2>
+<div class="curso" data-codigo="IN4002" data-prerreq="IN4001" onclick="toggle(this)" style="opacity: 0.3">Proyecto de Título II<br><small>IN4002 - 6 créditos</small></div>
+<div class="curso" data-codigo="ELC1009" data-prerreq="" onclick="toggle(this)" style="opacity: 1">Electivo Profesional IX<br><small>ELC1009 - 6 créditos</small></div>
+<div class="curso" data-codigo="ELC1010" data-prerreq="" onclick="toggle(this)" style="opacity: 1">Electivo Profesional X<br><small>ELC1010 - 6 créditos</small></div>
+</div>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>

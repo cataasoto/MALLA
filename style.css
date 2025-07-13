@@ -1,0 +1,36 @@
+body {
+  font-family: sans-serif;
+  background-color: #ffe6f0;
+  margin: 0;
+  padding: 2rem;
+  text-align: center;
+}
+h1 {
+  color: #cc007a;
+}
+.curso {
+  background-color: #fbb6ce;
+  border: 2px solid #cc007a;
+  border-radius: 8px;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  width: 220px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+.curso:hover {
+  transform: scale(1.05);
+}
+.curso.aprobado {
+  background-color: #d1ffd6;
+  border-color: #00aa44;
+}
+.semestre {
+  margin-bottom: 2rem;
+}
+.semestre h2 {
+  color: #cc007a;
+}
